@@ -12,8 +12,17 @@ var (
 )
 
 func main() {
+	/*
 	const f = "%T(%v)\n"
 	fmt.Printf(f, ToBe, ToBe)
 	fmt.Printf(f, MaxInt, MaxInt)
 	fmt.Printf(f, z, z)
+	*/
+
+	//	default values
+	var i int
+	var f float64
+	var b bool
+	var s string
+	fmt.Printf("%v %v %v %q\n", i, f, b, s)
 }
